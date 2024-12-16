@@ -1,26 +1,16 @@
-library(TSrepr)
-library(ggplot2)
-library(data.table)
-library(cluster)
-library(clusterCrit)
-
+library('TSrepr')
+library('ggplot2')
+library('data.table')
+library('cluster')
+library('clusterCrit')
 library('dtwclust')
-
 library('TSclust')
-
 library('dplyr')
-
 library('microbenchmark')
-
-
 library('reshape2')
-
-
-library(pheatmap)
-
-library(gplots)
-
-library(RColorBrewer)
+library('pheatmap')
+library('gplots')
+library('ColorBrewer')
 
 
 Type_1_Dayindex_data_matrix <- as.matrix(Type_1_data_with_Dayindex[c(2:25)])
